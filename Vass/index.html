@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VASS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- MENU HEADER-->
+    <div class="container-header">
+        <header>
+            <div class="logo">
+                <a href="https://vasscompany.com/">
+                    <img src="img/logo-vass-blanco.png" alt="VASS">
+                </a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li> <a href="#home" onclick="seleccionar()">Casos de éxito</a> </li>
+                    <li><a href="#markets" onclick="seleccionar()">Mercados</a></li>
+                    <li><a href="#countries" onclick="seleccionar()">Países</a></li>
+                    <li><a href="#weAreVass" onclick="seleccionar()">Somos VASS</a></li>
+                    <li><a href="#howDoWeDoit" onclick="seleccionar()">Cómo lo hacemos</a></li>
+                    <li><a href="#insights" onclick="seleccionar()">Insights</a></li>
+                    <li><a href="#news" onclick="seleccionar()">Noticias</a></li>
+                    <li><a href="#research" onclick="seleccionar()">VASS Research</a></li>
+                    <li><a href="#contact" onclick="seleccionar()">Contacto</a></li>
+                    <li><a href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a href="#talent" onclick="seleccionar()">Talento</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- SECTION CONTACTO-->
+    <section id="contact" class="sections">
+        <div class="sections-header">
+            <h1>CONTACTO</h1>
+        </div>
+        <div class="sections-body">
+            <div class="row">
+                <div class="col">
+                    <h3>EMPECEMOS HACERLO SENCILLO</h3>
+                </div>
+                <div class="col right">
+                    <span class="mater">Nos emociona iniciar tu transformación digital</span>
+                </div>
+            </div>
+        </div>
+        <!-- Formulario -->
+        <div class="sections form row">
+            <div class="col">
+                <input type="text" placeholder="Nombre y apellidos" id="">
+                <input type="text" placeholder="Email" id="">
+                <input type="text" placeholder="Empresa / Organismo">
+                <input type="text" placeholder="País">
+            </div>
+            <div class="col right">
+                <input type="number" placeholder="Teléfono">
+                <label for="message">Mensaje:</label>
+                <textarea name="message" id="" cols="24" rows="5"></textarea>
+                <button>
+                    Enviar
+                    <span class="overlay"></span>
+                </button>
+            </div>
+        </div>
+    </section>
+    <section class="footer-primary">
+
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <div class="main-footer">
+            <div class="site-map logo">
+                <div class="title">Complex<br /> made<br /> simple </div>
+                <a href="https://vasscompany.com/">
+                    <img alt="VASS" src="img/logo-vass-blanco.png">
+                </a>
+            </div>
+            <div class="site-map">
+                <div class="menu-menu-footer-corporativo-container">
+                    <div class="title">Sitemap Vass </div>
+                    <ul id="menu-menu-footer-corporativo" class="navbar-nav-list">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Casos éxito</a></li>
+                        <li><a href="">Somos Vass</a></li>
+                        <li><a href="">Impactos</a></li>
+                        <li><a href="">Método</a></li>
+                        <li><a href="">Tecnologías</a></li>
+                        <li><a href="">Proyectos I+D+i</a></li>
+                        <li><a href="">Insights</a></li>
+                        <li><a href="">Noticias</a></li>
+                        <li><a href="">Vass Research</a></li>
+                        <li><a href="">Canal de denuncias</a></li>
+                        <li><a href="" aria-current="page">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="site-map">
+                <div class="">
+                    <div class="title">Sitemap Talento</div>
+                    <ul id="">
+                        <li> <a href="">Talento</a></li>
+                        <li><a href="">#LifeVASS</a></li>
+                        <li><a href="">Beneficios</a></li>
+                        <li><a href="">Planes para ti</a></li>
+                        <li><a href="">Proyectos</a></li>
+                        <li><a href="">Smartworking</a></li>
+                        <li><a href="">#Ofertas</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="site-map certificado">
+                <div class="">
+                    <div class="title">Empresas</div>
+                    <ul>
+                        <li><a href="">VASS</a></li>
+                        <li><a href="">Nateevo</a></li>
+                        <li><a href="">Serbatic</a></li>
+                        <li><a href="">vdSHOP</a></li>
+                    </ul>
+                </div>
+                <img alt="Certificados" src="img/certificado.png">
+            </div>
+        </div>
+
+
+        <div class="secondary-footer">
+            <div class="copyright">
+                <span class="copr">Copyright &copy; 2021 Todos los derechos reservados</span>
+            </div>
+
+            <div class="vs-policies">
+                <a href="https://vasscompany.com/politica-de-cookies/">Política de cookies</a>
+                <a href="https://vasscompany.com/aviso-legal/">Politica de privacidad</a>
+                <a href="https://vasscompany.com/politica-de-calidad-y-medio-ambiente/">Política de calidad y medio
+                    ambiente</a>
+                <a href="https://vasscompany.com/wp-content/uploads/2023/04/VASS-Politica-de-seguridad-WEB-PDF.pdf">Política
+                    de la seguridad de la información</a>
+            </div>
+            <div class="redes">
+                <a href="" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="" target="_blank"><i class="fa-brands fa-linkedin-in"></i></i></a>
+                <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
